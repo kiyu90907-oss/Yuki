@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>表格标签</title>
+</head>
+
+<body>
+  <h2>表格标签</h2>
+  <table border="1">border后期是用css实现，这里只是为了看效果
+    <tr>
+      <th>姓名</th>
+      <th>班级</th>
+      <th>成绩</th>
+    </tr>
+    <tr>
+      <td>张三</td>
+      <td>一班</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>李四</td>
+      <td>二班</td>
+      <td>90</td>
+    </tr>
+  </table>
+  <h2>表格结构标签</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>姓名</th>
+        <th>班级</th>
+        <th>成绩</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>张三</td>
+        <td>一班</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>李四</td>
+        <td>二班</td>
+        <td>90</td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>表格合并单元格</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>居住城市</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>张三</td>
+        <td>18</td>
+        <td>北京</td>
+      </tr>
+      <tr>
+        <td>李四</td>
+        <td>19</td>
+        <td rowspan="2">上海</td>
+      </tr>
+      <tr>
+        <td>王五</td>
+        <td>20</td>
+
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>登时间</td>
+        <td colspan="2"></td>
+      </tr>
+    </tfoot>
+
+
+  </table>
+</body>
+
+</html>
